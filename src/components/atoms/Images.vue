@@ -6,11 +6,12 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
+  name: 'ImagesV',
   props: {
     src: { type: String, required: true }
   },
   computed: {
-    pathImage() {
+    pathImage(): string {
       return require(`@/assets/images/${this.src}`)
     }
   }

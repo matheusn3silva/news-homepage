@@ -5,5 +5,7 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-size: 62.5%;
+  background: #c8c8c8;
+  font-family: 'Inter', sans-serif;
 }
